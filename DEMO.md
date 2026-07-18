@@ -4,6 +4,16 @@
 
 Make the collaborative loop visible in 90 seconds: **control → contribution → verification → reward**.
 
+## Run it
+
+```bash
+npm run demo
+```
+
+Then open `http://127.0.0.1:8787`. No dependency installation or API key is required beyond Node.js 20+.
+
+Berlin-Builder is configured with `--tamper-once`, providing a real rejected-result event. During the live job, pause Madrid-Builder while it is working to demonstrate lease requeue and reassignment.
+
 ## Before recording
 
 - Start the coordinator, dashboard, and two named workers: Madrid and Berlin (labels are simulated locations unless machines are truly remote).
@@ -99,4 +109,3 @@ Narration:
 - Welcome, controls, live contribution, verification, and dashboard screenshots.
 - 16:9 title and closing cards.
 - Caption file and thumbnail.
-

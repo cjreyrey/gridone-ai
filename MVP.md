@@ -81,3 +81,17 @@ At the end of the demo, a judge should understand three things without explanati
 2. The network verified work before rewarding it.
 3. A Builder can participate without surrendering control of the device.
 
+## Implementation evidence — July 18, 2026
+
+The local Build Week prototype now satisfies the core technical loop:
+
+- Two independent Node.js worker processes register with the coordinator.
+- Eight public-document vector tasks are leased and executed.
+- Berlin-Builder intentionally tampers with one result; verification rejects and requeues it.
+- Pausing Madrid-Builder while it holds a lease immediately requeues the task.
+- Berlin-Builder completes the reassigned task.
+- All eight tasks finish verified.
+- Eight receipts create 1,796 prototype AI Credits in the visually verified run.
+- Five automated tests pass, including a multi-process end-to-end test.
+
+Still required before Devpost submission: public testing access, demo recording, final assets, Codex `/feedback` session ID, and completed submission links.

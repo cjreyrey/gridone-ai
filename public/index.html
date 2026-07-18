@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="GridOne AI — verifiable community-powered AI microtasks." />
+    <title>GridOne AI — Builder Network</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="noise"></div>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="GridOne home">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span>GRIDONE</span>
+      </a>
+      <div class="network-pill"><span class="pulse"></span> Local cooperative live</div>
+      <div class="prototype-pill">BUILD WEEK PROTOTYPE</div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Collaborative intelligence infrastructure</p>
+          <h1>Don't just use AI.<br /><em>Help build it.</em></h1>
+          <p class="hero-text">
+            GridOne transforms idle devices into a verifiable AI compute layer—while Builders keep control
+            and earn transparent prototype credits.
+          </p>
+          <div class="hero-actions">
+            <button id="start-job" class="button primary"><span>Start verified job</span><b>→</b></button>
+            <button id="reset-demo" class="button secondary">Reset demo</button>
+          </div>
+          <p class="disclosure">Synthetic public data · Allow-listed task · Credits are non-redeemable</p>
+        </div>
+        <div class="network-orbit" aria-label="Diagram showing a coordinator connected to Builder nodes">
+          <div class="orbit orbit-a"></div>
+          <div class="orbit orbit-b"></div>
+          <div class="node node-one"><span></span><small>BUILDER 01</small></div>
+          <div class="node node-two"><span></span><small>BUILDER 02</small></div>
+          <div class="node node-three ghost"><span></span><small>OPEN CAPACITY</small></div>
+          <div class="core"><span class="brand-mark large"><i></i><i></i><i></i></span><b>GRIDONE</b><small>COORDINATOR</small></div>
+        </div>
+      </section>
+
+      <section class="metrics" aria-label="Network metrics">
+        <article><span>BUILDERS ONLINE</span><strong id="metric-workers">0</strong><small>separate processes</small></article>
+        <article><span>VERIFIED TASKS</span><strong id="metric-verified">0</strong><small>receipt backed</small></article>
+        <article><span>AI CREDITS</span><strong id="metric-credits">0</strong><small>prototype only</small></article>
+        <article><span>INVALID RESULTS</span><strong id="metric-rejected">0</strong><small>rejected + requeued</small></article>
+      </section>
+
+      <section class="workspace">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Live proof</p>
+            <h2>Contribution control room</h2>
+          </div>
+          <div id="job-status" class="status-chip idle"><span></span>No job running</div>
+        </div>
+
+        <div class="control-grid">
+          <article class="panel workers-panel">
+            <div class="panel-title">
+              <div><span class="index">01</span><h3>Builders</h3></div>
+              <small>Foreground always wins</small>
+            </div>
+            <div id="workers" class="workers-list">
+              <div class="empty-state">Start the demo workers to join the grid.</div>
+            </div>
+          </article>
+
+          <article class="panel pipeline-panel">
+            <div class="panel-title">
+              <div><span class="index">02</span><h3>Verified pipeline</h3></div>
+              <small id="pipeline-progress">0 / 0 complete</small>
+            </div>
+            <div class="pipeline-legend">
+              <span><i class="queued"></i>Queued</span><span><i class="working"></i>Working</span><span><i class="verified"></i>Verified</span>
+            </div>
+            <div id="pipeline" class="pipeline"><div class="empty-state">Start a job to create microtasks.</div></div>
+          </article>
+
+          <article class="panel events-panel">
+            <div class="panel-title">
+              <div><span class="index">03</span><h3>Trust events</h3></div>
+              <small>Coordinator audit trail</small>
+            </div>
+            <div id="events" class="events-list"></div>
+          </article>
+
+          <article class="panel ledger-panel">
+            <div class="panel-title">
+              <div><span class="index">04</span><h3>Credit receipts</h3></div>
+              <span class="nonredeemable">NON-REDEEMABLE</span>
+            </div>
+            <div id="ledger" class="ledger-list"><div class="empty-state">Credits appear only after verification.</div></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="proof-strip">
+        <div><span>REAL</span><p>Coordinator, separate workers, leases, retries, verification, and receipts.</p></div>
+        <div><span>SIMULATED</span><p>Locations, network scale, and the future AI Credit redemption catalog.</p></div>
+        <div><span>NOT CLAIMED</span><p>Frontier training, arbitrary private workloads, or replacement of data centers.</p></div>
+      </section>
+    </main>
+
+    <footer>
+      <span>ONE GRID. MILLIONS OF BUILDERS. A SHARED FUTURE.</span>
+      <a href="https://github.com/cjreyrey/gridone-ai">View source ↗</a>
+    </footer>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
+

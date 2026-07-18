@@ -39,7 +39,7 @@ The prototype consists of:
 - A verifier using task-specific checks and redundant sampling.
 - An append-only prototype credit ledger gated by verified completion.
 
-**Final implementation stack:** [replace after architecture decision]
+**Implementation stack:** Node.js 20 built-ins for the HTTP coordinator, scheduler, worker processes, verification, and tests; browser-native HTML, CSS, and JavaScript for the dashboard. The prototype has no third-party runtime dependencies and needs no API key.
 
 ## Challenges we ran into
 
@@ -51,8 +51,10 @@ The prototype consists of:
 
 ## Accomplishments that we're proud of
 
-- [Replace with verified implementation accomplishments only.]
-- A complete contribution-to-verification-to-credit loop.
+- A complete contribution-to-verification-to-credit loop running across two independent worker processes.
+- A visible pause-and-reassignment path that preserves Builder control.
+- An intentional tamper test that the verifier rejects and safely requeues.
+- Five passing tests, including a real multi-process end-to-end run.
 - Builder-first control and transparent task receipts.
 - Honest product boundaries: no arbitrary code, no sensitive demo data, and no claim that prototype credits are redeemable.
 
@@ -74,14 +76,17 @@ The prototype consists of:
 
 ## Built with OpenAI
 
-[Document the OpenAI models, APIs, and Codex workflows actually used. Do not list planned or unused products. Include concrete examples and repository evidence where appropriate.]
+Codex was used to pressure-test the concept, define the Build Week scope, design the task and trust contracts, implement the coordinator and worker protocol, build the dashboard, write the verification suite, execute the multi-worker demo, and align this submission with the shipped evidence.
+
+Codex materially accelerated the project by converting the product documents into a running system in one continuous build thread. Human decisions remained central: the cooperative positioning, the refusal to overclaim privacy or economics, the selection of a deterministic allow-listed workload, and the explicit separation of real versus simulated features.
+
+Before submission, add the `/feedback` Codex Session ID and verified model/session details for the thread where the core implementation was built.
 
 ## Links
 
-- Repository: [add URL]
-- Demo: [add URL]
-- Video: [add URL]
-- Live app: [add URL if applicable]
+- Repository: https://github.com/cjreyrey/gridone-ai
+- Demo/testing access: [add deployed URL or downloadable test build]
+- Video: [add public YouTube URL]
 
 ## Accuracy disclosures
 
@@ -105,4 +110,3 @@ The prototype consists of:
 - [ ] Remove secrets, personal data, and unlicensed assets.
 - [ ] Confirm all links work without private access.
 - [ ] Obtain team approval before final submission.
-

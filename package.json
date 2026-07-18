@@ -1,0 +1,18 @@
+{
+  "name": "gridone-ai",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Build Week prototype for verifiable, community-powered AI microtasks.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "worker:madrid": "node src/worker.js --id madrid --name Madrid-Builder",
+    "worker:berlin": "node src/worker.js --id berlin --name Berlin-Builder --tamper-once",
+    "demo": "node scripts/run-demo.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
