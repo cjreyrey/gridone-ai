@@ -1,6 +1,3 @@
-Exit code: 0
-Wall time: 1.1 seconds
-Output:
 # GridOne AI
 
 > **Don't just use AI. Help build it.**
@@ -58,24 +55,24 @@ The demo uses two or more real worker processes. It does not claim production-gr
 
 ```text
 gridone-ai/
-â”œâ”€â”€ README.md
-â”œâ”€â”€ MANIFESTO.md
-â”œâ”€â”€ VISION.md
-â”œâ”€â”€ PRESSURE_TEST.md
-â”œâ”€â”€ PRODUCT.md
-â”œâ”€â”€ ARCHITECTURE.md
-â”œâ”€â”€ MVP.md
-â”œâ”€â”€ ROADMAP.md
-â”œâ”€â”€ DEMO.md
-â”œâ”€â”€ PITCH.md
-â”œâ”€â”€ DEVPOST.md
-â”œâ”€â”€ .github/
-â”‚   â””â”€â”€ PROJECT_BOARD.md
-â””â”€â”€ docs/
-    â”œâ”€â”€ ui/
-    â”œâ”€â”€ diagrams/
-    â”œâ”€â”€ logos/
-    â””â”€â”€ presentation/
+├── README.md
+├── MANIFESTO.md
+├── VISION.md
+├── PRESSURE_TEST.md
+├── PRODUCT.md
+├── ARCHITECTURE.md
+├── MVP.md
+├── ROADMAP.md
+├── DEMO.md
+├── PITCH.md
+├── DEVPOST.md
+├── .github/
+│   └── PROJECT_BOARD.md
+└── docs/
+    ├── ui/
+    ├── diagrams/
+    ├── logos/
+    └── presentation/
 ```
 
 ## Current phase
@@ -85,5 +82,4 @@ gridone-ai/
 ## Working language
 
 Project artifacts are written in English for Build Week and international collaboration. Product decisions should be recorded in the relevant living document rather than left only in chat.
-
 
