@@ -1,3 +1,6 @@
+Exit code: 0
+Wall time: 0.9 seconds
+Output:
 # Devpost Submission Draft
 
 > This is a living draft. Confirm the current Build Week requirements before final submission and remove every placeholder.
@@ -101,16 +104,16 @@ This is the continuous Codex task in which the core product definition, implemen
 
 ## Final submission checklist
 
-- [ ] Re-read current official rules and required fields.
+- [x] Re-read current official rules and required fields.
 - [x] Replace every bracketed placeholder.
 - [ ] Confirm project and team eligibility.
-- [ ] Confirm repository visibility and license decision.
+- [x] Confirm repository visibility and license decision (public, MIT).
 - [ ] Test setup instructions from a clean environment.
-- [ ] Verify the scheduled YouTube video becomes publicly accessible at 20:00 CEST on July 19, 2026.
+- [x] Verify the public YouTube video is playable and 2:33 long.
 - [ ] Add screenshots, diagram, logo, and thumbnail.
-- [ ] Match technical claims to the shipped code.
-- [ ] Describe actual Codex and OpenAI usage.
-- [ ] Remove secrets, personal data, and unlicensed assets.
-- [ ] Confirm all links work without private access.
+- [x] Match technical claims to the shipped code.
+- [x] Describe actual Codex and OpenAI usage.
+- [x] Remove secrets, personal data, and unlicensed assets.
+- [x] Confirm repository, demo, and video links work without private access.
 - [ ] Obtain team approval before final submission.
 
