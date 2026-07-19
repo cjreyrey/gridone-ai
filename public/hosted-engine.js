@@ -42,7 +42,7 @@ export class HostedGridEngine {
       if (worker.paused || worker.activeTaskId) continue;
       const task = this.tasks.find((item) => item.status === "queued"); if (!task) continue;
       task.status = "leased"; task.attempts += 1; task.leaseWorkerId = worker.id; worker.activeTaskId = task.id; worker.status = "working"; this.jobs.at(-1).status = "running";
-      this.log("task-leased", `${task.id} assigned to ${worker.name}.`); worker.runtime.postMessage({ type: "execute", workerId: worker.id, task, delay: 700 + Math.random() * 500 });
+      this.log("task-leased", `${task.id} assigned to ${worker.name}.`); worker.runtime.postMessage({ type: "execute", workerId: worker.id, task, delay: 1400 + Math.random() * 700 });
     }
   }
   async receive({ workerId, taskId, result }) {
