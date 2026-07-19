@@ -95,7 +95,9 @@ Codex was used throughout the Build Week project—not only to generate code. Th
 
 The key human product decision was to position GridOne as a complementary layer for safe, divisible workloads—not as a replacement for hyperscale data centers. The key engineering decision was to avoid arbitrary remote code and use one allow-listed, independently verifiable task type.
 
-Before final submission, the Devpost entry will include the `/feedback` Codex Session ID for this build thread and the verified model/session evidence required by the rules.
+**Codex Session ID (`/feedback`):** `019f76be-0e27-7f80-be0d-8f827aaf8469`
+
+The public demo video is available at https://youtu.be/RN4sjPogOks.
 
 ## Product principles
 
@@ -150,7 +152,7 @@ gridone-ai/
 
 ## Current phase
 
-**Working prototype.** The core end-to-end loop is implemented and tested. Remaining submission work is deployment/test access, final visual assets, the public demo video, `/feedback` session evidence, and Devpost completion.
+**Submission candidate.** The core end-to-end loop is implemented and tested; the public demo, repository, video URL, and Codex session evidence are ready. Final work is Devpost review and submission approval.
 
 ## Working language
 
