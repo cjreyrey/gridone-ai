@@ -80,14 +80,16 @@ Codex was used to pressure-test the concept, define the Build Week scope, design
 
 Codex materially accelerated the project by converting the product documents into a running system in one continuous build thread. Human decisions remained central: the cooperative positioning, the refusal to overclaim privacy or economics, the selection of a deterministic allow-listed workload, and the explicit separation of real versus simulated features.
 
-Before submission, add the `/feedback` Codex Session ID and verified model/session details for the thread where the core implementation was built.
+**Codex Session ID (`/feedback`):** `019f76be-0e27-7f80-be0d-8f827aaf8469`
+
+This is the continuous Codex task in which the core product definition, implementation, verification, deployment, and submission assets were completed.
 
 ## Links
 
 - Repository: https://github.com/cjreyrey/gridone-ai
 - Live demo: https://cjreyrey.github.io/gridone-ai/
 - Desktop test build: clone the repository and run `npm run demo`
-- Video: [add public YouTube URL]
+- Video: https://youtu.be/RN4sjPogOks
 
 ## Accuracy disclosures
 
@@ -100,11 +102,11 @@ Before submission, add the `/feedback` Codex Session ID and verified model/sessi
 ## Final submission checklist
 
 - [ ] Re-read current official rules and required fields.
-- [ ] Replace every bracketed placeholder.
+- [x] Replace every bracketed placeholder.
 - [ ] Confirm project and team eligibility.
 - [ ] Confirm repository visibility and license decision.
 - [ ] Test setup instructions from a clean environment.
-- [ ] Verify video duration, format, captions, and public access.
+- [ ] Verify the scheduled YouTube video becomes publicly accessible at 20:00 CEST on July 19, 2026.
 - [ ] Add screenshots, diagram, logo, and thumbnail.
 - [ ] Match technical claims to the shipped code.
 - [ ] Describe actual Codex and OpenAI usage.
