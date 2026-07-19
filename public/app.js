@@ -16,6 +16,7 @@ const elements = {
 };
 
 let latestState = null;
+let hostedEngine = null;
 
 function escapeHtml(value) {
   return String(value)
@@ -27,13 +28,21 @@ function escapeHtml(value) {
 }
 
 async function api(path, options = {}) {
-  const response = await fetch(path, {
-    method: options.method || "GET",
-    headers: { "content-type": "application/json" },
-    body: options.body ? JSON.stringify(options.body) : undefined
-  });
-  if (!response.ok) throw new Error(`Request failed: ${response.status}`);
-  return response.json();
+  if (hostedEngine) return hostedEngine.request(path, options);
+  try {
+    const response = await fetch(path, {
+      method: options.method || "GET",
+      headers: { "content-type": "application/json" },
+      body: options.body ? JSON.stringify(options.body) : undefined
+    });
+    if (!response.ok) throw new Error(`Request failed: ${response.status}`);
+    return response.json();
+  } catch (error) {
+    const { HostedGridEngine } = await import("./hosted-engine.js");
+    hostedEngine = new HostedGridEngine();
+    document.querySelector(".network-pill").innerHTML = '<span class="pulse"></span> Hosted cooperative live';
+    return hostedEngine.request(path, options);
+  }
 }
 
 function formatNumber(value) {
