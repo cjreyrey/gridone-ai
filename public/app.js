@@ -95,7 +95,10 @@ function renderPipeline(tasks) {
 }
 
 function renderEvents(events) {
-  elements.events.innerHTML = events.slice(0, 12).map((event) => `
+  const visible = events.slice(0, 11);
+  const latestRejection = events.find((event) => event.type === "result-rejected");
+  if (latestRejection && !visible.some((event) => event.id === latestRejection.id)) visible.push(latestRejection);
+  elements.events.innerHTML = visible.map((event) => `
     <div class="event ${escapeHtml(event.type)}">
       <span class="event-dot"></span>
       <p>${escapeHtml(event.message)}</p>
