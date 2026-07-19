@@ -85,7 +85,8 @@ Before submission, add the `/feedback` Codex Session ID and verified model/sessi
 ## Links
 
 - Repository: https://github.com/cjreyrey/gridone-ai
-- Demo/testing access: [add deployed URL or downloadable test build]
+- Live demo: https://cjreyrey.github.io/gridone-ai/
+- Desktop test build: clone the repository and run `npm run demo`
 - Video: [add public YouTube URL]
 
 ## Accuracy disclosures
@@ -110,3 +111,4 @@ Before submission, add the `/feedback` Codex Session ID and verified model/sessi
 - [ ] Remove secrets, personal data, and unlicensed assets.
 - [ ] Confirm all links work without private access.
 - [ ] Obtain team approval before final submission.
+
