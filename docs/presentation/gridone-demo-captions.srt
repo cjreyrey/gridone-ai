@@ -1,0 +1,40 @@
+1
+00:00:00,000 --> 00:00:12,000
+AI infrastructure is becoming more powerful, expensive, and concentrated.
+What if people could participate in it, not only consume it?
+
+2
+00:00:12,000 --> 00:00:28,000
+GridOne is a collaborative compute network.
+Only verified work earns transparent prototype AI Credits.
+
+3
+00:00:28,000 --> 00:00:43,000
+Builder control comes first. Smart Contribution protects foreground activity,
+and the prototype accepts only an allow-listed task using public or synthetic data.
+
+4
+00:00:43,000 --> 00:01:10,000
+The coordinator splits one document-vector job into eight microtasks
+and leases them to two isolated workers.
+
+5
+00:01:10,000 --> 00:01:32,000
+Berlin deliberately tampers with its first answer.
+GridOne rejects the mismatch and safely requeues the task.
+
+6
+00:01:32,000 --> 00:01:49,000
+Only verified tasks create credits, and every balance change links to a receipt.
+Build Week credits are simulated and non-redeemable.
+
+7
+00:01:49,000 --> 00:02:13,000
+Codex and GPT-5.6 helped pressure-test the idea, design the protocol,
+implement the dashboard and verification logic, and write the automated tests.
+
+8
+00:02:13,000 --> 00:02:28,000
+GridOne demonstrates a community-powered layer for verifiable AI work.
+Don't just use AI. Help build it.
+
