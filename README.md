@@ -4,6 +4,8 @@
 
 GridOne AI is a working Build Week prototype of a collaborative compute network. It lets people contribute idle device capacity to a safe, allow-listed AI workload and earn prototype AI Credits only after their work is verified.
 
+**Live demo:** https://cjreyrey.github.io/gridone-ai/
+
 ## Vision
 
 **Turn humanity into the world's largest collaborative AI infrastructure.**
@@ -23,9 +25,13 @@ The implemented MVP demonstrates one complete, honest loop:
 5. The coordinator verifies the result.
 6. The Builder receives simulated AI Credits and sees the contribution in a dashboard.
 
-The demo uses two real worker processes. One intentionally returns a tampered result so the verifier can reject and requeue it. It does not claim production-grade privacy, global scale, training of frontier models, or redeemable credits.
+The public demo uses two isolated browser workers; the downloadable desktop demo uses two separate operating-system worker processes. In both modes, one worker intentionally returns a tampered result so the verifier can reject and requeue it. GridOne does not claim production-grade privacy, global scale, training of frontier models, or redeemable credits.
 
 ## Run the prototype
+
+For the fastest test, open the [public GridOne demo](https://cjreyrey.github.io/gridone-ai/) and select **Start verified job**.
+
+For the stronger desktop proof with separate operating-system processes:
 
 Requirements: Node.js 20 or newer. GridOne has no third-party runtime dependencies and needs no API key.
 
@@ -152,3 +158,4 @@ Project artifacts are written in English for Build Week and international collab
 ## License
 
 [MIT](LICENSE)
+
