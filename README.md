@@ -119,6 +119,7 @@ Before final submission, the Devpost entry will include the `/feedback` Codex Se
 | [MVP.md](MVP.md) | One-week scope, acceptance criteria, and non-goals |
 | [ROADMAP.md](ROADMAP.md) | Sprint sequence and post-hackathon path |
 | [DEMO.md](DEMO.md) | Demo storyboard, setup, fallbacks, and evidence |
+| [VIDEO.md](VIDEO.md) | Final 2:28 recording script, shot list, captions, and YouTube copy |
 | [PITCH.md](PITCH.md) | 90-second spoken pitch and judge Q&A |
 | [DEVPOST.md](DEVPOST.md) | Submission-ready project story and checklist |
 | [docs/README.md](docs/README.md) | Visual asset map and naming conventions |
