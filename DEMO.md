@@ -1,5 +1,7 @@
 # Demo Storyboard
 
+> For the submission recording, use the current rule-compliant [VIDEO.md](VIDEO.md) package. This document remains the shorter product-demo storyboard and local fallback plan.
+
 ## Demo objective
 
 Make the collaborative loop visible in 90 seconds: **control → contribution → verification → reward**.
@@ -109,3 +111,4 @@ Narration:
 - Welcome, controls, live contribution, verification, and dashboard screenshots.
 - 16:9 title and closing cards.
 - Caption file and thumbnail.
+
