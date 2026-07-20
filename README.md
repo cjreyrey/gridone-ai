@@ -1,3 +1,6 @@
+Exit code: 0
+Wall time: 0.9 seconds
+Output:
 # GridOne AI
 
 > **Don't just use AI. Help build it.**
@@ -83,7 +86,7 @@ Verifier → credit ledger
 
 ## How we collaborated with Codex
 
-Codex was used throughout the Build Week project—not only to generate code. The collaboration included:
+GridOne AI was designed and implemented through a continuous Codex collaboration using GPT-5.6. Codex was used throughout the Build Week project—not only to generate code. The collaboration included:
 
 - pressure-testing the original decentralized-compute concept;
 - separating the long-term cooperative vision from an honest one-week MVP;
